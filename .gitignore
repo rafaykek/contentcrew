@@ -1,0 +1,31 @@
+# Environment & Secrets
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+venv/
+.venv/
+env/
+
+# SQLite Database & Local Data
+data/
+*.db
+*.sqlite3
+
+# Node.js & Frontend Build Outputs
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.vite/
+
+# Logs & Temporary Scratch Files
+*.log
+scratch/
+.DS_Store
+Thumbs.db
